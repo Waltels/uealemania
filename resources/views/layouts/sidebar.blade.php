@@ -1,7 +1,7 @@
 <nav class="sidebar">
     <div class="sidebar-header">
       <a href="#" class="sidebar-brand">
-        Noble<span>UI</span>
+        UE <span>Alemania</span>
       </a>
       <div class="sidebar-toggler not-active">
         <span></span>
@@ -15,297 +15,134 @@
         <li class="nav-item">
           <a href="{{route('dashboard')}}" class="nav-link">
             <i class="link-icon" data-feather="box"></i>
-            <span class="link-title">Dashboard</span>
+            <span class="link-title">Escritorio</span>
           </a>
         </li>
-        <li class="nav-item nav-category">web apps</li>
+        <li class="nav-item nav-category">Administración</li>
         <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="collapse" href="#emails" role="button" aria-expanded="false" aria-controls="emails">
-            <i class="link-icon" data-feather="mail"></i>
-            <span class="link-title">Email</span>
+          <a href="{{route('admin.docente.index')}}" class="nav-link">
+            <i class="link-icon" data-feather="users"></i>
+            <span class="link-title">Docente</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="collapse" href="#auth" role="button" aria-expanded="false" aria-controls="emails">
+            <i class="link-icon" data-feather="slack"></i>
+            <span class="link-title">Autenticación</span>
             <i class="link-arrow" data-feather="chevron-down"></i>
           </a>
-          <div class="collapse" id="emails">
+          <div class="collapse" id="auth">
             <ul class="nav sub-menu">
               <li class="nav-item">
-                <a href="pages/email/inbox.html" class="nav-link">Inbox</a>
+                <a href="{{route('admin.users.index')}}" class="nav-link">Usuarios</a>
               </li>
               <li class="nav-item">
-                <a href="pages/email/read.html" class="nav-link">Read</a>
+                <a href="{{route('admin.roles.index')}}" class="nav-link">Roles</a>
               </li>
               <li class="nav-item">
-                <a href="pages/email/compose.html" class="nav-link">Compose</a>
+                <a href="{{route('admin.permissions.index')}}" class="nav-link">Permisos</a>
               </li>
             </ul>
           </div>
         </li>
         <li class="nav-item">
-          <a href="pages/apps/chat.html" class="nav-link">
-            <i class="link-icon" data-feather="message-square"></i>
-            <span class="link-title">Chat</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="pages/apps/calendar.html" class="nav-link">
-            <i class="link-icon" data-feather="calendar"></i>
-            <span class="link-title">Calendar</span>
-          </a>
-        </li>
-        <li class="nav-item nav-category">Components</li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="collapse" href="#uiComponents" role="button" aria-expanded="false" aria-controls="uiComponents">
-            <i class="link-icon" data-feather="feather"></i>
-            <span class="link-title">UI Kit</span>
+          <a class="nav-link" data-bs-toggle="collapse" href="#documentos" role="button" aria-expanded="false" aria-controls="advancedUI">
+            <i class="link-icon" data-feather="file"></i>
+            <span class="link-title">Documentos</span>
             <i class="link-arrow" data-feather="chevron-down"></i>
           </a>
-          <div class="collapse" id="uiComponents">
+          <div class="collapse" id="documentos">
             <ul class="nav sub-menu">
               <li class="nav-item">
-                <a href="pages/ui-components/accordion.html" class="nav-link">Accordion</a>
+                <a href="{{route('admin.documentofiles.index')}}" class="nav-link">Doc Files</a>
               </li>
               <li class="nav-item">
-                <a href="pages/ui-components/alerts.html" class="nav-link">Alerts</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/badges.html" class="nav-link">Badges</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/breadcrumbs.html" class="nav-link">Breadcrumbs</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/buttons.html" class="nav-link">Buttons</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/button-group.html" class="nav-link">Button group</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/cards.html" class="nav-link">Cards</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/carousel.html" class="nav-link">Carousel</a>
-              </li>
-              <li class="nav-item">
-                  <a href="pages/ui-components/collapse.html" class="nav-link">Collapse</a>
-                </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/dropdowns.html" class="nav-link">Dropdowns</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/list-group.html" class="nav-link">List group</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/media-object.html" class="nav-link">Media object</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/modal.html" class="nav-link">Modal</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/navs.html" class="nav-link">Navs</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/navbar.html" class="nav-link">Navbar</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/pagination.html" class="nav-link">Pagination</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/popover.html" class="nav-link">Popovers</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/progress.html" class="nav-link">Progress</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/scrollbar.html" class="nav-link">Scrollbar</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/scrollspy.html" class="nav-link">Scrollspy</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/spinners.html" class="nav-link">Spinners</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/tabs.html" class="nav-link">Tabs</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/ui-components/tooltips.html" class="nav-link">Tooltips</a>
+                <a href="{{route('admin.docdocentes.index')}}" class="nav-link">Doc Docentes</a>
               </li>
             </ul>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="collapse" href="#advancedUI" role="button" aria-expanded="false" aria-controls="advancedUI">
-            <i class="link-icon" data-feather="anchor"></i>
-            <span class="link-title">Advanced UI</span>
+          <a class="nav-link" data-bs-toggle="collapse" href="#permisos" role="button" aria-expanded="false" aria-controls="advancedUI">
+            <i class="link-icon" data-feather="file"></i>
+            <span class="link-title">Faltas-Permisos</span>
             <i class="link-arrow" data-feather="chevron-down"></i>
           </a>
-          <div class="collapse" id="advancedUI">
+          <div class="collapse" id="permisos">
             <ul class="nav sub-menu">
               <li class="nav-item">
-                <a href="pages/advanced-ui/cropper.html" class="nav-link">Cropper</a>
+                <a href="#" class="nav-link">Faltas</a>
               </li>
               <li class="nav-item">
-                <a href="pages/advanced-ui/owl-carousel.html" class="nav-link">Owl carousel</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/advanced-ui/sortablejs.html" class="nav-link">SortableJs</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/advanced-ui/sweet-alert.html" class="nav-link">Sweet Alert</a>
+                <a href="#" class="nav-link">Permisos</a>
               </li>
             </ul>
           </div>
+        </li>
+        <li class="nav-item nav-category">Dirección</li>
+        <li class="nav-item">
+          <a href="{{route('documento.docdirue.index')}}" class="nav-link">
+            <i class="link-icon" data-feather="file-text"></i>
+            <span class="link-title">Datos Documentos </span>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="collapse" href="#forms" role="button" aria-expanded="false" aria-controls="forms">
-            <i class="link-icon" data-feather="inbox"></i>
-            <span class="link-title">Forms</span>
-            <i class="link-arrow" data-feather="chevron-down"></i>
+          <a href="{{route('documento.docfileues.index')}}" class="nav-link">
+            <i class="link-icon" data-feather="folder-plus"></i>
+            <span class="link-title">Datos Documentos File </span>
           </a>
-          <div class="collapse" id="forms">
-            <ul class="nav sub-menu">
-              <li class="nav-item">
-                <a href="pages/forms/basic-elements.html" class="nav-link">Basic Elements</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/forms/advanced-elements.html" class="nav-link">Advanced Elements</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/forms/editors.html" class="nav-link">Editors</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/forms/wizard.html" class="nav-link">Wizard</a>
-              </li>
-            </ul>
-          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  data-bs-toggle="collapse" href="#charts" role="button" aria-expanded="false" aria-controls="charts">
-            <i class="link-icon" data-feather="pie-chart"></i>
-            <span class="link-title">Charts</span>
-            <i class="link-arrow" data-feather="chevron-down"></i>
+          <a href="#" class="nav-link">
+            <i class="link-icon" data-feather="database"></i>
+            <span class="link-title">Datos Admin </span>
           </a>
-          <div class="collapse" id="charts">
-            <ul class="nav sub-menu">
-              <li class="nav-item">
-                <a href="pages/charts/apex.html" class="nav-link">Apex</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/charts/chartjs.html" class="nav-link">ChartJs</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/charts/flot.html" class="nav-link">Flot</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/charts/peity.html" class="nav-link">Peity</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/charts/sparkline.html" class="nav-link">Sparkline</a>
-              </li>
-            </ul>
-          </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="collapse" href="#tables" role="button" aria-expanded="false" aria-controls="tables">
-            <i class="link-icon" data-feather="layout"></i>
-            <span class="link-title">Table</span>
-            <i class="link-arrow" data-feather="chevron-down"></i>
-          </a>
-          <div class="collapse" id="tables">
-            <ul class="nav sub-menu">
-              <li class="nav-item">
-                <a href="pages/tables/basic-table.html" class="nav-link">Basic Tables</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/tables/data-table.html" class="nav-link">Data Table</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="collapse" href="#icons" role="button" aria-expanded="false" aria-controls="icons">
-            <i class="link-icon" data-feather="smile"></i>
-            <span class="link-title">Icons</span>
-            <i class="link-arrow" data-feather="chevron-down"></i>
-          </a>
-          <div class="collapse" id="icons">
-            <ul class="nav sub-menu">
-              <li class="nav-item">
-                <a href="pages/icons/feather-icons.html" class="nav-link">Feather Icons</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/icons/flag-icons.html" class="nav-link">Flag Icons</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/icons/mdi-icons.html" class="nav-link">Mdi Icons</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li class="nav-item nav-category">Pages</li>
         <li class="nav-item">
           <a class="nav-link" data-bs-toggle="collapse" href="#general-pages" role="button" aria-expanded="false" aria-controls="general-pages">
             <i class="link-icon" data-feather="book"></i>
-            <span class="link-title">Special pages</span>
+            <span class="link-title">Registros admin</span>
             <i class="link-arrow" data-feather="chevron-down"></i>
           </a>
           <div class="collapse" id="general-pages">
             <ul class="nav sub-menu">
               <li class="nav-item">
-                <a href="pages/general/blank-page.html" class="nav-link">Blank page</a>
+                <a href="pages/general/blank-page.html" class="nav-link">Permisos</a>
               </li>
               <li class="nav-item">
-                <a href="pages/general/faq.html" class="nav-link">Faq</a>
+                <a href="pages/general/faq.html" class="nav-link">Faltas</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item nav-category">DOCENTES</li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="collapse" href="#Components" role="button" aria-expanded="false" aria-controls="uiComponents">
+            <i class="link-icon" data-feather="folder-minus"></i>
+            <span class="link-title">File Docente</span>
+            <i class="link-arrow" data-feather="chevron-down"></i>
+          </a>
+          <div class="collapse" id="Components">
+            <ul class="nav sub-menu">
+              <li class="nav-item">
+                <a href=" {{route('admin.personaldocs.index')}}" class="nav-link"> Doc Personales</a>
               </li>
               <li class="nav-item">
-                <a href="pages/general/invoice.html" class="nav-link">Invoice</a>
+                <a href="{{route('admin.diplomados.index')}}" class="nav-link">Diplomados</a>
               </li>
               <li class="nav-item">
-                <a href="pages/general/profile.html" class="nav-link">Profile</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/general/pricing.html" class="nav-link">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/general/timeline.html" class="nav-link">Timeline</a>
+                <a href="{{route('admin.cursos.index')}}" class="nav-link">Cursos</a>
               </li>
             </ul>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="collapse" href="#authPages" role="button" aria-expanded="false" aria-controls="authPages">
-            <i class="link-icon" data-feather="unlock"></i>
-            <span class="link-title">Authentication</span>
-            <i class="link-arrow" data-feather="chevron-down"></i>
+          <a href="{{route('admin.docdireccions.index')}}" class="nav-link">
+            <i class="link-icon" data-feather="clipboard"></i>
+            <span class="link-title">Documentos</span>
           </a>
-          <div class="collapse" id="authPages">
-            <ul class="nav sub-menu">
-              <li class="nav-item">
-                <a href="pages/auth/login.html" class="nav-link">Login</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/auth/register.html" class="nav-link">Register</a>
-              </li>
-            </ul>
-          </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="collapse" href="#errorPages" role="button" aria-expanded="false" aria-controls="errorPages">
-            <i class="link-icon" data-feather="cloud-off"></i>
-            <span class="link-title">Error</span>
-            <i class="link-arrow" data-feather="chevron-down"></i>
-          </a>
-          <div class="collapse" id="errorPages">
-            <ul class="nav sub-menu">
-              <li class="nav-item">
-                <a href="pages/error/404.html" class="nav-link">404</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/error/500.html" class="nav-link">500</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li class="nav-item nav-category">Docs</li>
+        <li class="nav-item nav-category">ORGANIZACION UE</li>
         <li class="nav-item">
           <a href="https://www.nobleui.com/html/documentation/docs.html" target="_blank" class="nav-link">
             <i class="link-icon" data-feather="hash"></i>
