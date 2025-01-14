@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="{{asset('assets/vendors/dropify/dist/dropify.min.css')}}">
   <link rel="stylesheet" href="{{asset('assets/vendors/prismjs/themes/prism.css')}}">
   <link rel="stylesheet" href="{{asset('assets/vendors/flatpickr/flatpickr.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/vendors/easymde/easymde.min.css')}}">
 	<!-- End plugin css for this page -->
 
 	<!-- inject:css -->
@@ -84,6 +85,7 @@
   <script src="{{asset('assets/vendors/clipboard/clipboard.min.js')}}"></script>
   <script src="{{asset('assets/vendors/flatpickr/flatpickr.min.js')}}"></script>
   <script src="{{asset('assets/vendors/apexcharts/apexcharts.min.js')}}"></script>
+  <script src="{{asset('assets/vendors/tinymce/tinymce.min.js')}}"></script>
 	<!-- End plugin js for this page -->
 
 	<!-- inject:js -->
@@ -95,6 +97,8 @@
   <script src="{{asset('assets/js/dashboard-light.js')}}"></script>
   <script src="{{asset('assets/js/data-table.js')}}"></script>
   <script src="{{asset('assets/js/dropify.js')}}"></script>
+  <script src="{{asset('assets/js/flatpickr.js')}}"></script>
+  <script src="{{asset('assets/js/tinymce.js')}}"></script>
 	<!-- End custom js for this page -->
 
   @if (session('swal'))

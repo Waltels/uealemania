@@ -21,4 +21,6 @@ class Personaldoc extends Model
         return $this->belongsTo(Diplomado::class);
     }
 
+    
+
 }

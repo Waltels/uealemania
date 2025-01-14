@@ -71,10 +71,13 @@
           <div class="collapse" id="permisos">
             <ul class="nav sub-menu">
               <li class="nav-item">
-                <a href="#" class="nav-link">Faltas</a>
+                <a href="{{route('documento.faltas.index')}}" class="nav-link">Faltas</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Permisos</a>
+                <a href="{{route('documento.permisos.index')}}" class="nav-link">Permisos</a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('documento.meses.index')}}" class="nav-link">Meses</a>
               </li>
             </ul>
           </div>
@@ -107,10 +110,10 @@
           <div class="collapse" id="general-pages">
             <ul class="nav sub-menu">
               <li class="nav-item">
-                <a href="pages/general/blank-page.html" class="nav-link">Permisos</a>
+                <a href="{{route('documento.permisodocentes.index')}}" class="nav-link">Permisos</a>
               </li>
               <li class="nav-item">
-                <a href="pages/general/faq.html" class="nav-link">Faltas</a>
+                <a href="{{route('documento.faltadocentes.index')}}" class="nav-link">Faltas</a>
               </li>
             </ul>
           </div>

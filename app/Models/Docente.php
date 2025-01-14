@@ -15,7 +15,6 @@ class Docente extends Model
         return $this->belongsTo(User::class);
     }
 
-
     //relaicon uno a muchos
     public function personaldoc(){
         return $this->hasMany(Personaldoc::class);
@@ -28,5 +27,11 @@ class Docente extends Model
     } 
     public function docdireccion(){
         return $this->hasMany(Docdireccion::class);
+    }
+    public function faltadocente(){
+        return $this->hasMany(Docdireccion::class);
+    }
+    public function permisodocente(){
+        return $this->hasMany(Permisos::class);
     }
 }

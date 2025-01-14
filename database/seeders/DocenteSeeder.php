@@ -13,6 +13,11 @@ class DocenteSeeder extends Seeder
      */
     public function run(): void
     {
-
+        Docente::create([
+            'user_id' => '1',
+            'ci'=>'3540110',
+            'telefono'=>'69590211',
+            'Direccion'=>'C. Sgto. Nuñes y Sucre Caracollo'
+        ]);
     }
 }
